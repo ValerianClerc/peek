@@ -13,6 +13,9 @@
 		6ECEF19F236502E70012118B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECEF19D236502E70012118B /* Main.storyboard */; };
 		6ECEF1A1236502E80012118B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECEF1A0236502E80012118B /* Assets.xcassets */; };
 		6ECEF1A4236502E80012118B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECEF1A2236502E80012118B /* LaunchScreen.storyboard */; };
+		6ECEF1AC236505410012118B /* FloatingPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEF1AB236505410012118B /* FloatingPoint+Extension.swift */; };
+		6ECEF1AE2365055F0012118B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEF1AD2365055F0012118B /* String+Extension.swift */; };
+		6ECEF1B02365059F0012118B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECEF1AF2365059F0012118B /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		6ECEF1A0236502E80012118B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ECEF1A3236502E80012118B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ECEF1A5236502E80012118B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECEF1AB236505410012118B /* FloatingPoint+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Extension.swift"; sourceTree = "<group>"; };
+		6ECEF1AD2365055F0012118B /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		6ECEF1AF2365059F0012118B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				6ECEF1A0236502E80012118B /* Assets.xcassets */,
 				6ECEF1A2236502E80012118B /* LaunchScreen.storyboard */,
 				6ECEF1A5236502E80012118B /* Info.plist */,
+				6ECEF1AB236505410012118B /* FloatingPoint+Extension.swift */,
+				6ECEF1AD2365055F0012118B /* String+Extension.swift */,
+				6ECEF1AF2365059F0012118B /* art.scnassets */,
 			);
 			path = ARMusic;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ECEF1A4236502E80012118B /* LaunchScreen.storyboard in Resources */,
+				6ECEF1B02365059F0012118B /* art.scnassets in Resources */,
 				6ECEF1A1236502E80012118B /* Assets.xcassets in Resources */,
 				6ECEF19F236502E70012118B /* Main.storyboard in Resources */,
 			);
@@ -140,6 +150,8 @@
 			files = (
 				6ECEF19C236502E70012118B /* ViewController.swift in Sources */,
 				6ECEF198236502E70012118B /* AppDelegate.swift in Sources */,
+				6ECEF1AC236505410012118B /* FloatingPoint+Extension.swift in Sources */,
+				6ECEF1AE2365055F0012118B /* String+Extension.swift in Sources */,
 				6ECEF19A236502E70012118B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
